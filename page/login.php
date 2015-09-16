@@ -67,11 +67,7 @@
 	}
 
 ?>
-<html>
-<head>
-	<title>Login page</title>
-</head>
-<body>
+<?php require_once("../header.php"); ?>
 	<h2>Log in</h2>
 	
 		<form action="login.php" method="post" >
@@ -92,6 +88,4 @@
 	<h2>MVP idee</h2>
 	<p>Internetilehekülg, kus näidatakse League of Legends'i turniire ja kus saab kihla vedada, milline tiim, millise
 	turniiri võidab. </p>
-</body>
-
-</html>
+<?php require_once("../footer.php"); ?>
